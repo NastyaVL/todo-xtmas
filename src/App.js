@@ -46,6 +46,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p className="label">Christmas To Do</p>
+        <div className="labelComment">Выпишите список дел, которые хотите сделать перед Новым Годом</div>
         <TodoForm addTodo={ addTodo }/>
         <TodoList
           todos={ todos }
