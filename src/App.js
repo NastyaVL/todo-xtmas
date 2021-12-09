@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import './../src/components/Styles.css';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 
@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Christmas To Do</p>
+        <p className="label">Christmas To Do</p>
         <TodoForm addTodo={ addTodo }/>
         <TodoList
           todos={ todos }
